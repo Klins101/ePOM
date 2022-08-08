@@ -93,30 +93,5 @@ public class HomePage {
 
 
 
-    /*
-    public static void addFirstElementToCart() {
-        Actions hover = new Actions(utils.driver);
-        hover.moveToElement(firstElement).build().perform();
-        addToCartFirst.click();
-        WebDriverWait wait = new WebDriverWait(utils.driver, Constants.TIMEOUT);
-        wait.until(ExpectedConditions.elementToBeClickable(continueShoppingButton));
-        continueShoppingButton.click();
-        if (cart.getText().contains(Constants.CART_QUANTITY))
-            System.out.println("Cart has been updated");
-        else {
-            System.out.println("Cart has not been updated");
-
-        }
-
-    }
-    public static void addSecondElementToCart() {
-        Actions hover = new Actions(utils.driver);
-        hover.moveToElement(secondElement).build().perform();
-        addToCartSecond.click();
-        WebDriverWait wait = new WebDriverWait(utils.driver, Constants.TIMEOUT);
-        wait.until(ExpectedConditions.elementToBeClickable(proceedToCheckoutButton));
-        proceedToCheckoutButton.click();
-    }
-    */
 
 }
